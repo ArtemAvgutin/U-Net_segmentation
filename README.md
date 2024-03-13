@@ -1,7 +1,7 @@
 # U-Net_segmentation
 ## Segmentation of images with pets using neural networks.  / Сегментация изображений с домашними животными, используя нейросети.
 ### Задача: Реализовать алгоритм сегментации на основе нейросетей семейства u-net, используя библиотеки cv2, keras (Conv2D, MaxPooling2D, UpSampling2D), numpy и tensorflow.
-### Результат: Были реализованы модели нейросетей u-net и MobileNetV2 с точностью - .
+### Результат: Были реализованы модели нейросетей u-net и MobileNetV2 с точностью - ~82%.
 ### Стек технологий: cv2, keras (Conv2D, MaxPooling2D, UpSampling2D), numpy и tensorflow.
 
 #### Мы будем использовать набор данных домашних животных Oxford-IIIT. Он содержит 37 классов собак и кошек, по 200 изображений на каждый класс. Набор данных содержит метки в виде ограничивающих рамок и масок сегментации. Общее количество изображений в датасете 7349 картинок.
@@ -24,7 +24,7 @@
 * Также в задачу входит создание сети MobileNetV2. MobileNetV2 — следующее поколение нейросетей этого семейства, которое позволяет достигать примерно такой же точности распознавания при ещё большей скорости работы.
 
 ### Task: Implement a segmentation algorithm based on neural networks of the u-net family, using the libraries cv2, keras (Conv2D, MaxPooling2D, UpSampling2D), numpy and tensorflow.
-### Result: The u-net and MobileNetV2 neural network models were implemented with an accuracy of - .
+### Result: The u-net and MobileNetV2 neural network models were implemented with an accuracy of - ~82%.
 ### Technology stack: cv2, keras (Conv2D, MaxPooling2D, UpSampling2D), numpy and tensorflow.
 
 #### The U-Net model is a simple fully convolutional neural network that is used for binary segmentation, i.e., pixel-wise classification of foreground and background. Mainly consists of two parts.
